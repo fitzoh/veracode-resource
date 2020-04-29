@@ -38,6 +38,6 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         registry: docker.pkg.github.com
-        repository: cardinal-health/veracode-resource
+        repository: cardinal-health/veracode-resource/veracode-resource
         path: build/docker
         tag_with_ref: true
